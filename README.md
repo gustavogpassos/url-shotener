@@ -1,5 +1,7 @@
 # url-shotener
 
+Projeto simples encurtador de url's
+
 ### src/index.js
 - rota de api que recebe a url e retorna o link gerado
 
