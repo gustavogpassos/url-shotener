@@ -1,0 +1,20 @@
+{
+  "name": "url-shotener",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gustavo G Passos <girardi_gustavo@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.1",
+    "url-validation": "^2.1.0",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "redir": "nodemon src/redirector.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
